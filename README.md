@@ -20,3 +20,35 @@ links
     app.js – initializes the app and glues everything together
     package.json – remembers all packages that your app depends on and their versions
 
+project/
+  controllers/
+    comments.js
+    index.js
+    users.js
+  helpers/
+    dates.js
+  middlewares/
+    auth.js
+    users.js
+  models/
+    comment.js
+    user.js
+  public/
+    libs/
+    css/
+    img/
+  views/
+    comments/
+      comment.jade
+    users/
+    index.jade
+  tests/
+    controllers/
+    models/
+      comment.js
+    middlewares/
+    integration/
+    ui/
+  .gitignore
+  app.js
+  package.json
