@@ -9,6 +9,7 @@ links
 <p>https://www.codementor.io/codeforgeek/build-website-from-scratch-using-expressjs-and-bootstrap-du107sby7</p>
 <p>https://techprd.com/how-to-develop-a-responsive-node-js-express-website-using-bootstrap/</p>
 <p>https://scotch.io/tutorials/easy-node-authentication-setup-and-local</p>
+<p>https://www.danielgynn.com/build-an-authentication-app-using-express-node-passport/</p>
 
 
 
