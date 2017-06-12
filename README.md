@@ -11,6 +11,7 @@ links
 <p>https://scotch.io/tutorials/easy-node-authentication-setup-and-local</p>
 <p>https://www.danielgynn.com/build-an-authentication-app-using-express-node-passport/</p>
 <p>https://www.youtube.com/watch?v=07739ffJkbo</p>
+<p>https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications</p>
 
 
 
