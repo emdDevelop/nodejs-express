@@ -12,7 +12,7 @@ links
 <p>https://www.danielgynn.com/build-an-authentication-app-using-express-node-passport/</p>
 <p>https://www.youtube.com/watch?v=07739ffJkbo</p>
 <p>https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications</p>
-
+<p>http://devsmash.com/blog/password-authentication-with-mongoose-and-bcrypt</p>
 
 
     controllers/ – defines your app routes and their logic
