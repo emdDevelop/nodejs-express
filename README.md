@@ -13,7 +13,7 @@ links
 <p>https://www.youtube.com/watch?v=07739ffJkbo</p>
 <p>https://scotch.io/tutorials/using-mongoosejs-in-node-js-and-mongodb-applications</p>
 <p>http://devsmash.com/blog/password-authentication-with-mongoose-and-bcrypt</p>
-
+<p>https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
