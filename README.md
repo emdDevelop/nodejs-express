@@ -17,6 +17,7 @@ links
 <p>http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/</p>
 <p>https://mostafa-samir.github.io/async-iterative-patterns-pt1/</p>
 <p>https://stackoverflow.com/questions/4288759/asynchronous-for-cycle-in-javascript</p>
+<p>https://eddywashere.com/blog/switching-out-callbacks-with-promises-in-mongoose/</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
