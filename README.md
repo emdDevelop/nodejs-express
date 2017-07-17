@@ -16,6 +16,7 @@ links
 <p>https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions</p>
 <p>http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/</p>
 <p>https://mostafa-samir.github.io/async-iterative-patterns-pt1/</p>
+<p>https://stackoverflow.com/questions/4288759/asynchronous-for-cycle-in-javascript</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
