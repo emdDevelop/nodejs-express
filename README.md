@@ -15,6 +15,7 @@ links
 <p>http://devsmash.com/blog/password-authentication-with-mongoose-and-bcrypt</p>
 <p>https://stormpath.com/blog/everything-you-ever-wanted-to-know-about-node-dot-js-sessions</p>
 <p>http://sahatyalkabov.com/how-to-implement-password-reset-in-nodejs/</p>
+<p>https://mostafa-samir.github.io/async-iterative-patterns-pt1/</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
