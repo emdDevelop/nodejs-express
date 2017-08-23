@@ -18,6 +18,7 @@ links
 <p>https://mostafa-samir.github.io/async-iterative-patterns-pt1/</p>
 <p>https://stackoverflow.com/questions/4288759/asynchronous-for-cycle-in-javascript</p>
 <p>https://eddywashere.com/blog/switching-out-callbacks-with-promises-in-mongoose/</p>
+<p>https://medium.com/google-cloud/node-to-google-cloud-compute-engine-in-25-minutes-7188830d884e</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
