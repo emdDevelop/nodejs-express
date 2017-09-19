@@ -21,6 +21,7 @@ links
 <p>https://medium.com/google-cloud/node-to-google-cloud-compute-engine-in-25-minutes-7188830d884e</p>
 <p>http://pm2.keymetrics.io/</p>
 <p>https://www.digitalocean.com/community/tutorials/how-to-use-pm2-to-setup-a-node-js-production-environment-on-an-ubuntu-vps</p>
+<p>https://github.com/chriso/validator.js#validators</p>
 
     controllers/ – defines your app routes and their logic
     helpers/ – code and functionality to be shared by different parts of the project
