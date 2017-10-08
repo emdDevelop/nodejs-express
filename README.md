@@ -33,5 +33,20 @@ links
     tests/ – tests everything which is in the other folders
     app.js – initializes the app and glues everything together
     package.json – remembers all packages that your app depends on and their versions
+    
+    Generate the certificate ssl
+
+The certificate files are stored inside the ssl/ folder. You can generate new files with the following commands.
+
+Create the private key :
+
+openssl genrsa -out key.pem 1024
+Create the "Certificate Signing Request" :
+
+openssl req -new -key key.pem -out csr.pem
+Create the self-signed certificate :
+
+openssl x509 -req -in csr.pem -signkey key.pem -out cert.pem
+Alternatively you can send the CSR to a Certificate Authority for signing.
 
 
