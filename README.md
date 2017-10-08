@@ -34,7 +34,7 @@ links
     app.js – initializes the app and glues everything together
     package.json – remembers all packages that your app depends on and their versions
     
-    Generate the certificate ssl
+    <h1>Generate the certificate ssl</h1>
 
 The certificate files are stored inside the ssl/ folder. You can generate new files with the following commands.
 
@@ -48,5 +48,31 @@ Create the self-signed certificate :
 
 openssl x509 -req -in csr.pem -signkey key.pem -out cert.pem
 Alternatively you can send the CSR to a Certificate Authority for signing.
+<p>https://slproweb.com/products/Win32OpenSSL.html</p> download for windows
+<p>https://www.youtube.com/watch?v=H8GxM9ApkYc</p> setup openssl for windows
+
+ssl nodejs express socket.io
+
+var fs = require( 'fs' );
+var app = require('express')();
+var https        = require('https');
+var server = https.createServer({
+    key: fs.readFileSync('./test_key.key'),
+    cert: fs.readFileSync('./test_cert.crt'),
+    ca: fs.readFileSync('./test_ca.crt'),
+    requestCert: false,
+    rejectUnauthorized: false
+},app);
+server.listen(8080);
+
+var io = require('socket.io').listen(server);
+
+io.sockets.on('connection',function (socket) {
+    ...
+});
+
+app.get("/", function(request, response){
+    ...
+})
 
 
