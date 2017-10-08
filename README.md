@@ -66,6 +66,8 @@ app.get("/", function(request, response){<br>
 })
 
 
+<h1>Configuring Nginx and SSL with Node.js</h1>
+<p>https://www.sitepoint.com/configuring-nginx-ssl-node-js/</p>
 
 
     controllers/ – defines your app routes and their logic
