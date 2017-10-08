@@ -38,30 +38,30 @@ Create the self-signed certificate :
 
 openssl x509 -req -in csr.pem -signkey key.pem -out cert.pem
 Alternatively you can send the CSR to a Certificate Authority for signing.
-<p>https://slproweb.com/products/Win32OpenSSL.html</p> download for windows
-<p>https://www.youtube.com/watch?v=H8GxM9ApkYc</p> setup openssl for windows
+<p>https://slproweb.com/products/Win32OpenSSL.html download for windows</p>
+<p>https://www.youtube.com/watch?v=H8GxM9ApkYc setup openssl for windows</p>
 
 ssl nodejs express socket.io
 
 var fs = require( 'fs' );
-var app = require('express')();
-var https        = require('https');
-var server = https.createServer({
-    key: fs.readFileSync('./test_key.key'),
-    cert: fs.readFileSync('./test_cert.crt'),
-    ca: fs.readFileSync('./test_ca.crt'),
-    requestCert: false,
-    rejectUnauthorized: false
-},app);
-server.listen(8080);
+var app = require('express')();<br>
+var https        = require('https');<br>
+var server = https.createServer({<br>
+    key: fs.readFileSync('./test_key.key'),<br>
+    cert: fs.readFileSync('./test_cert.crt'),<br>
+    ca: fs.readFileSync('./test_ca.crt'),<br>
+    requestCert: false,<br>
+    rejectUnauthorized: false<br>
+},app);<br>
+server.listen(8080);<br>
 
-var io = require('socket.io').listen(server);
+var io = require('socket.io').listen(server);<br>
 
-io.sockets.on('connection',function (socket) {
-    ...
-});
+io.sockets.on('connection',function (socket) {<br>
+    ...<br>
+});<br>
 
-app.get("/", function(request, response){
+app.get("/", function(request, response){<br>
     ...
 })
 
