@@ -25,6 +25,7 @@ links
 <p>https://www.digitalocean.com/community/tutorials/how-to-back-up-restore-and-migrate-a-mongodb-database-on-ubuntu-14-04</p>
 <p>https://www.youtube.com/watch?v=7k03jobKGXM</p>
 <p>https://github.com/sendgrid/sendgrid-nodejs/blob/master/packages/mail/USE_CASES.md#transactional-templates</p>
+<p>https://docs.mongodb.com/getting-started/shell/</p>
 
   <h1>Generate the certificate ssl</h1>
 
